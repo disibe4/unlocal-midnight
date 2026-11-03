@@ -2585,7 +2585,7 @@ overlay.Visible = false
 
 print("[UNLOCAL MIDNIGHT] Loaded successfully. Press RIGHT SHIFT.")
 print("note")
-print("this is the no silent aim verison only aim assist")
+print("this is tge silent aim verison and the aim assist also works")
 print("another note")
 print("i disabled triggerbot esp and show fov till i make it stream proof")
 print("join for more updates at https://discord.gg/HfR2raecTm")
