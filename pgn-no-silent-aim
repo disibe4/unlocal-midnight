@@ -1,7 +1,3 @@
-
--- UNLOCAL | MIDNIGHT EDITION
--- message from owner when u open the github link yes this script is vibecoded mostly the ui the silent aim from the other verisions of the scripts and aim assist i made myself other features ai im going to continue to updte the script myself without ai yall can skidd idm
-
 local Players = game:GetService("Players")
 local UIS = game:GetService("UserInputService")
 local TweenService = game:GetService("TweenService")
@@ -12,7 +8,7 @@ local playerGui = player:WaitForChild("PlayerGui")
 local old = playerGui:FindFirstChild("UNLOCAL_MIDNIGHT")
 if old then old:Destroy() end
 
--- THEME
+
 
 local C = {
     Black = Color3.fromRGB(5, 5, 8),
@@ -55,7 +51,7 @@ local busy = false
 local pageBusy = false
 local currentPage = "Home"
 
--- HELPERS
+
 
 local function tween(obj, duration, properties)
     local t = TweenService:Create(
@@ -142,7 +138,6 @@ local function loadConfig(slot)
     return true
 end
 
--- GUI
 
 local gui = create("ScreenGui", {
     Name = "UNLOCAL_MIDNIGHT",
@@ -180,7 +175,7 @@ local mainScale = create("UIScale", {
     Scale = 0.9,
 }, main)
 
--- TOP BAR
+
 
 local top = create("Frame", {
     Size = UDim2.new(1, 0, 0, 58),
