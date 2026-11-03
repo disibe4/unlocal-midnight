@@ -1,7 +1,6 @@
 
 -- UNLOCAL | MIDNIGHT EDITION
--- Place in StarterPlayer > StarterPlayerScripts
--- Right Shift = Open / Close
+-- message from owner when u open the github link yes this script is vibecoded mostly the ui the silent aim from the other verisions of the scripts and aim assist i made myself other features ai im going to continue to updte the script myself without ai yall can skidd idm
 
 local Players = game:GetService("Players")
 local UIS = game:GetService("UserInputService")
